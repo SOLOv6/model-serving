@@ -67,7 +67,7 @@ class MyHandler(BaseHandler):
         properties = context.system_properties
         model_dir = properties.get("model_dir")
 
-        self.account_key_dir = os.path.join(model_dir, 'aiffel-gn3-2-035da204163f.json')
+        self.account_key_dir = os.path.join(model_dir, 'key.json')
 
         # Read model serialize/pth file 
         effunetb4_pth_path = os.path.join(model_dir, 'effunetb4.pt')
